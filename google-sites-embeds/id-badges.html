@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Inter", system-ui, sans-serif;
+    background: #F8F9FA;
+    color: #0F172A;
+    padding: 16px;
+  }
+  .grid {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  .badge-card {
+    background: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+    display: grid;
+  }
+  .badge-top {
+    background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
+    color: #FFFFFF;
+    padding: 16px 16px 24px;
+    text-align: center;
+  }
+  .slot {
+    width: 48px;
+    height: 7px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.28);
+    margin: 0 auto 10px;
+  }
+  .brand { font-family: "Be Vietnam Pro", sans-serif; font-weight: 800; font-size: 14px; letter-spacing: 0.06em; }
+  .sub { font-size: 11px; color: #99F6E4; margin-top: 3px; }
+  .badge-body {
+    background: #FFFFFF;
+    margin-top: -12px;
+    border-radius: 16px 16px 0 0;
+    padding: 18px 16px;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    gap: 8px;
+  }
+  .avatar {
+    width: 78px;
+    height: 78px;
+    border-radius: 14px;
+    background: #F1F5F9;
+    border: 2.5px solid #0D9488;
+    display: grid;
+    place-items: center;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #1E293B;
+  }
+  .avatar.coral { border-color: #F97316; }
+  .name { font-family: "Be Vietnam Pro", sans-serif; font-size: 18px; font-weight: 800; color: #1E293B; }
+  .role {
+    padding: 4px 12px;
+    border-radius: 999px;
+    background: #FFEDD5;
+    color: #C2410C;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 11px;
+    font-weight: 800;
+  }
+  .role.teal { background: #CCFBF1; color: #0F766E; }
+  .mssv { font-size: 13px; font-weight: 700; color: #475569; }
+  .badge-foot {
+    background: #F1F5F9;
+    border-top: 1px solid #E2E8F0;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 11px;
+    color: #475569;
+  }
+  .qr { width: 44px; height: 44px; background: #FFFFFF; padding: 3px; border: 1px solid #CBD5E1; border-radius: 6px; flex-shrink: 0; }
+</style>
+</head>
+<body>
+  <div class="grid">
+    <article class="badge-card">
+      <div class="badge-top"><div class="slot"></div><div class="brand">LISTENING LAB • NHÓM 06</div><div class="sub">KỸ NĂNG MỀM 2026–2027 • HCMUS</div></div>
+      <div class="badge-body">
+        <div class="avatar">TMĐ</div>
+        <div class="name">Trần Minh Đạt</div>
+        <div class="role">NHÓM TRƯỞNG</div>
+        <div class="mssv">MSSV: 26127519</div>
+      </div>
+      <div class="badge-foot">
+        <div><strong>Quản lý tiến độ</strong><br>Listen with an Open Mind</div>
+        <svg class="qr" viewBox="0 0 29 29" aria-label="Mã QR website nhóm"><rect width="29" height="29" fill="#FFF"/><path fill="#1E293B" d="M2 2h9v9H2zm2 2v5h5V4zm2 2h1v1H6zM18 2h9v9h-9zm2 2v5h5V4zm2 2h1v1h-1zM2 18h9v9H2zm2 2v5h5v-5zm2 2h1v1H6zM13 3h3v2h-3zm0 4h2v3h-2zm3 3h2v3h-2zm-4 3h4v2h-4zm6 0h3v2h-3zm4 0h3v3h-3zm-9 4h2v3h-2zm4 1h4v2h-4zm5 0h3v4h-3zm-9 4h3v2h-3zm5 2h3v3h-3zm4 0h5v3h-5z"/></svg>
+      </div>
+    </article>
+
+    <article class="badge-card">
+      <div class="badge-top"><div class="slot"></div><div class="brand">LISTENING LAB • NHÓM 06</div><div class="sub">KỸ NĂNG MỀM 2026–2027 • HCMUS</div></div>
+      <div class="badge-body">
+        <div class="avatar coral">NHL</div>
+        <div class="name">Ngô Hoàng Long</div>
+        <div class="role teal">TÀI NGUYÊN &amp; BÁO CÁO</div>
+        <div class="mssv">MSSV: 26127264</div>
+      </div>
+      <div class="badge-foot">
+        <div><strong>Biên tập Báo cáo 15 mục</strong><br>Listen with an Open Mind</div>
+        <svg class="qr" viewBox="0 0 29 29" aria-label="Mã QR website nhóm"><rect width="29" height="29" fill="#FFF"/><path fill="#1E293B" d="M2 2h9v9H2zm2 2v5h5V4zm2 2h1v1H6zM18 2h9v9h-9zm2 2v5h5V4zm2 2h1v1h-1zM2 18h9v9H2zm2 2v5h5v-5zm2 2h1v1H6zM13 3h3v2h-3zm0 4h2v3h-2zm3 3h2v3h-2zm-4 3h4v2h-4zm6 0h3v2h-3zm4 0h3v3h-3zm-9 4h2v3h-2zm4 1h4v2h-4zm5 0h3v4h-3zm-9 4h3v2h-3zm5 2h3v3h-3zm4 0h5v3h-5z"/></svg>
+      </div>
+    </article>
+
+    <article class="badge-card">
+      <div class="badge-top"><div class="slot"></div><div class="brand">LISTENING LAB • NHÓM 06</div><div class="sub">KỸ NĂNG MỀM 2026–2027 • HCMUS</div></div>
+      <div class="badge-body">
+        <div class="avatar">TQH</div>
+        <div class="name">Trần Quang Huy</div>
+        <div class="role">ĐẠO DIỄN &amp; VIDEO</div>
+        <div class="mssv">MSSV: 26127187</div>
+      </div>
+      <div class="badge-foot">
+        <div><strong>Kỹ thuật Video / Audio</strong><br>Listen with an Open Mind</div>
+        <svg class="qr" viewBox="0 0 29 29" aria-label="Mã QR website nhóm"><rect width="29" height="29" fill="#FFF"/><path fill="#1E293B" d="M2 2h9v9H2zm2 2v5h5V4zm2 2h1v1H6zM18 2h9v9h-9zm2 2v5h5V4zm2 2h1v1h-1zM2 18h9v9H2zm2 2v5h5v-5zm2 2h1v1H6zM13 3h3v2h-3zm0 4h2v3h-2zm3 3h2v3h-2zm-4 3h4v2h-4zm6 0h3v2h-3zm4 0h3v3h-3zm-9 4h2v3h-2zm4 1h4v2h-4zm5 0h3v4h-3zm-9 4h3v2h-3zm5 2h3v3h-3zm4 0h5v3h-5z"/></svg>
+      </div>
+    </article>
+
+    <article class="badge-card">
+      <div class="badge-top"><div class="slot"></div><div class="brand">LISTENING LAB • NHÓM 06</div><div class="sub">KỸ NĂNG MỀM 2026–2027 • HCMUS</div></div>
+      <div class="badge-body">
+        <div class="avatar coral">NGH</div>
+        <div class="name">Nguyễn Gia Huy</div>
+        <div class="role teal">THIẾT KẾ WEB &amp; POSTER</div>
+        <div class="mssv">MSSV: 26127175</div>
+      </div>
+      <div class="badge-foot">
+        <div><strong>Bộ nhận diện thương hiệu</strong><br>Listen with an Open Mind</div>
+        <svg class="qr" viewBox="0 0 29 29" aria-label="Mã QR website nhóm"><rect width="29" height="29" fill="#FFF"/><path fill="#1E293B" d="M2 2h9v9H2zm2 2v5h5V4zm2 2h1v1H6zM18 2h9v9h-9zm2 2v5h5V4zm2 2h1v1h-1zM2 18h9v9H2zm2 2v5h5v-5zm2 2h1v1H6zM13 3h3v2h-3zm0 4h2v3h-2zm3 3h2v3h-2zm-4 3h4v2h-4zm6 0h3v2h-3zm4 0h3v3h-3zm-9 4h2v3h-2zm4 1h4v2h-4zm5 0h3v4h-3zm-9 4h3v2h-3zm5 2h3v3h-3zm4 0h5v3h-5z"/></svg>
+      </div>
+    </article>
+
+    <article class="badge-card">
+      <div class="badge-top"><div class="slot"></div><div class="brand">LISTENING LAB • NHÓM 06</div><div class="sub">KỸ NĂNG MỀM 2026–2027 • HCMUS</div></div>
+      <div class="badge-body">
+        <div class="avatar">HGD</div>
+        <div class="name">Huỳnh Gia Duy</div>
+        <div class="role">BIÊN KỊCH CHÍNH</div>
+        <div class="mssv">MSSV: 26127100</div>
+      </div>
+      <div class="badge-foot">
+        <div><strong>Kịch bản &amp; Nội dung</strong><br>Listen with an Open Mind</div>
+        <svg class="qr" viewBox="0 0 29 29" aria-label="Mã QR website nhóm"><rect width="29" height="29" fill="#FFF"/><path fill="#1E293B" d="M2 2h9v9H2zm2 2v5h5V4zm2 2h1v1H6zM18 2h9v9h-9zm2 2v5h5V4zm2 2h1v1h-1zM2 18h9v9H2zm2 2v5h5v-5zm2 2h1v1H6zM13 3h3v2h-3zm0 4h2v3h-2zm3 3h2v3h-2zm-4 3h4v2h-4zm6 0h3v2h-3zm4 0h3v3h-3zm-9 4h2v3h-2zm4 1h4v2h-4zm5 0h3v4h-3zm-9 4h3v2h-3zm5 2h3v3h-3zm4 0h5v3h-5z"/></svg>
+      </div>
+    </article>
+
+    <article class="badge-card">
+      <div class="badge-top"><div class="slot"></div><div class="brand">LISTENING LAB • NHÓM 06</div><div class="sub">KỸ NĂNG MỀM 2026–2027 • HCMUS</div></div>
+      <div class="badge-body">
+        <div class="avatar coral">LVP</div>
+        <div class="name">Lê Vĩnh Phúc</div>
+        <div class="role teal">HẬU CẦN &amp; KIỂM THỬ</div>
+        <div class="mssv">MSSV: 26127367</div>
+      </div>
+      <div class="badge-foot">
+        <div><strong>Bối cảnh &amp; Khảo sát</strong><br>Listen with an Open Mind</div>
+        <svg class="qr" viewBox="0 0 29 29" aria-label="Mã QR website nhóm"><rect width="29" height="29" fill="#FFF"/><path fill="#1E293B" d="M2 2h9v9H2zm2 2v5h5V4zm2 2h1v1H6zM18 2h9v9h-9zm2 2v5h5V4zm2 2h1v1h-1zM2 18h9v9H2zm2 2v5h5v-5zm2 2h1v1H6zM13 3h3v2h-3zm0 4h2v3h-2zm3 3h2v3h-2zm-4 3h4v2h-4zm6 0h3v2h-3zm4 0h3v3h-3zm-9 4h2v3h-2zm4 1h4v2h-4zm5 0h3v4h-3zm-9 4h3v2h-3zm5 2h3v3h-3zm4 0h5v3h-5z"/></svg>
+      </div>
+    </article>
+  </div>
+</body>
+</html>

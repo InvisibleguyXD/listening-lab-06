@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="16" fill="#1E293B"/>
+  <!-- Open dialogue bubble -->
+  <path d="M14 29C14 19.611 22.059 12 32 12C41.941 12 50 19.611 50 29C50 38.389 41.941 46 32 46H23L14.5 52.5L16.5 43.2C14.9 39.2 14 34.3 14 29Z" stroke="#F8F9FA" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Headphone band -->
+  <path d="M18.5 29.5C18.5 22.044 24.544 16 32 16C39.456 16 45.5 22.044 45.5 29.5" stroke="#0D9488" stroke-width="2.75" stroke-linecap="round"/>
+  <!-- Stylized 0 (left ear-cup sound ring) -->
+  <rect x="20" y="25" width="9.5" height="13.5" rx="4.75" stroke="#F8F9FA" stroke-width="2.6"/>
+  <path d="M24.75 29.25V34.25" stroke="#F97316" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Stylized 6 (right ear-cup wave curve) -->
+  <path d="M43 26.2C41.8 25.1 39.8 24.8 38.1 25.5C35.8 26.4 34.5 28.9 34.5 32.3C34.5 36.1 36.6 38.5 39.4 38.5C42 38.5 43.8 36.7 43.8 34.2C43.8 31.8 42 30.2 39.5 30.2C37.2 30.2 35.4 31.5 34.7 33.1" stroke="#F97316" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
