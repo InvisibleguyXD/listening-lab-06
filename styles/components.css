@@ -339,6 +339,11 @@ dialog.modal {
   box-shadow: var(--shadow-lg);
 }
 
+dialog.modal[open] {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+}
+
 /* Bắt buộc: Ngăn cuộn trang nền khi dialog đang mở */
 dialog:modal {
   overscroll-behavior: contain;
@@ -356,13 +361,13 @@ dialog::backdrop {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 1.25rem 1.5rem;
+  padding: 1rem 1.35rem;
   border-block-end: 1px solid var(--border-subtle);
   background-color: var(--bg-canvas);
 }
 
 .modal__title {
-  font-size: 1.25rem;
+  font-size: clamp(1.05rem, 1rem + 0.5vw, 1.25rem);
 }
 
 .modal__close {
